@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import "./globals.css";
-import {Nunito} from "next/font/google"
+import { Nunito } from "next/font/google";
 
 const nunito = Nunito({
     subsets: ['latin', 'cyrillic'],
-    weight: ['300', '400', '500', '600'],
+    weight: ['300', '400', '500', '600', '700', '800'],
     variable: "--font-nunito",
 })
 
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="ru" className={nunito.variable}>
-        <body className="bg-gray-100">
+        <html lang="ru">
+        <body className={`${nunito.variable} bg-gray-100`}>
         <div className="flex flex-col min-h-screen">
             <div className="flex items-center px-4 py-1 text-sm bg-white border-b">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

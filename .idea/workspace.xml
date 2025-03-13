@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a6d83d-e145-4a35-8c9b-2ec68b90885c" name="Changes" comment="преображен блок vin, header">
-      <change afterPath="$PROJECT_DIR$/carstoc/components/CategorySlider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/battery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/chemistry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/battery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/chemistry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/tires.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/wheels.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/oil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/parts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/tires.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/wheels.png" afterDir="false" />
+    <list default="true" id="28a6d83d-e145-4a35-8c9b-2ec68b90885c" name="Changes" comment="trying to make slider">
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/catalog-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/menu-button 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/menu-button-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/shopping-cart 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/Избранное.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/Профиль.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/nav/Список прошлых заказов.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carstoc/public/slider/icons/oil.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carstoc/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carstoc/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carstoc/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carstoc/components/CategorySlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/components/CategorySlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carstoc/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/components/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rovma/WebstormProject/carstoc/carstoc/public/slider/icons",
+    "last_opened_file_path": "C:/Users/rovma/WebstormProject/carstoc/carstoc/public/nav",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,9 +68,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public\nav" />
+      <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public" />
       <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public\slider\icons" />
       <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public\slider" />
-      <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rovma\WebstormProject\carstoc\carstoc\public\slider" />
@@ -91,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741455021862</updated>
       <workItem from="1741455023955" duration="3992000" />
-      <workItem from="1741591972162" duration="7194000" />
+      <workItem from="1741591972162" duration="10904000" />
+      <workItem from="1741806394036" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741594484950</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="trying to make slider">
+      <option name="closed" value="true" />
+      <created>1741714988128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741714988128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="преображен блок vin, header" />
-    <option name="LAST_COMMIT_MESSAGE" value="преображен блок vin, header" />
+    <MESSAGE value="trying to make slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to make slider" />
   </component>
 </project>
