@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28a6d83d-e145-4a35-8c9b-2ec68b90885c" name="Changes" comment="main page is done">
-      <change afterPath="$PROJECT_DIR$/carstoc/components/CitySelect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carstoc/components/test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carstoc/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carstoc/components/CategorySlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/carstoc/components/CategorySlider.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="28a6d83d-e145-4a35-8c9b-2ec68b90885c" name="Changes" comment="repair scrolling and make city's modal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +87,7 @@
       <workItem from="1741591972162" duration="10904000" />
       <workItem from="1741806394036" duration="2619000" />
       <workItem from="1741890964908" duration="3705000" />
-      <workItem from="1741978694487" duration="2951000" />
+      <workItem from="1741978694487" duration="3322000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -127,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741891007290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="repair scrolling and make city's modal">
+      <option name="closed" value="true" />
+      <created>1741981882767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741981882767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +140,7 @@
     <MESSAGE value="преображен блок vin, header" />
     <MESSAGE value="trying to make slider" />
     <MESSAGE value="main page is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="main page is done" />
+    <MESSAGE value="repair scrolling and make city's modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="repair scrolling and make city's modal" />
   </component>
 </project>
