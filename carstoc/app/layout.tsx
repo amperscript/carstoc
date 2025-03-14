@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import "./globals.css";
 import { Nunito } from "next/font/google";
+import CitySelector from "@/components/CitySelect";
 
 const nunito = Nunito({
     subsets: ['latin', 'cyrillic'],
@@ -20,11 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={`${nunito.variable} bg-gray-100`}>
         <div className="flex flex-col min-h-screen">
             <div className="flex items-center px-4 py-1 text-sm bg-white border-b">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span className="text-gray-700">Москва</span>
+                <CitySelector />
                 <div className="ml-auto">
                     <a href="/support" className="text-gray-700 hover:text-blue-600">Поддержка</a>
                 </div>
